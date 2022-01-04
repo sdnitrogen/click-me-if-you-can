@@ -1,0 +1,16 @@
+#btn {
+    position: absolute; /* so that we can move the button around without any constraints */
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    font-size: large;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+}
+
+#btn.winner {
+    background-color: green;
+}
